@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0085dca0-492f-45be-94ce-fa8ee0a34335" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/COMP9444.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw1/data/binary_classification_data.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw1/data/data_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw1/src/part1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw1/src/part2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw1/src/part3.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1S5jV6AbMwOKMbOHQmF0Fe96D2l" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0085dca0-492f-45be-94ce-fa8ee0a34335" name="Default Changelist" comment="" />
+      <created>1570860371551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570860371551</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="299" width="824" height="507" key="IDE.errors.dialog" timestamp="1570860398256">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="574" y="299" width="824" height="507" key="IDE.errors.dialog/62.27.1858.1053@62.27.1858.1053" timestamp="1570860398256" />
+    <state x="586" y="289" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1570860768203">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="586" y="289" width="800" height="527" key="Vcs.Push.Dialog.v2/62.27.1858.1053@62.27.1858.1053" timestamp="1570860768203" />
+  </component>
+</project>
