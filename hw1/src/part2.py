@@ -42,6 +42,14 @@ class LinearModel:
         hint: consider np.exp()
         """
 
+        if type(x)==float or type(x)==np.float64:
+            return 1/(1+np.exp(-x))
+        else:
+            raise ValueError
+
+
+
+
     def forward(self, inputs):
         """
         TODO: Implement the forward pass (inference) of a the model.
@@ -50,12 +58,25 @@ class LinearModel:
         hint: call the activation function you have implemented above.
         """
 
+
+        x = (np.dot(inputs,self.weights[:2])+self.weights[-1:]).item()
+        out=self.activation(x)
+
+        return out
+
+
+
     @staticmethod
     def loss(prediction, label):
         """
         TODO: Return the cross entropy for the given prediction and label
         hint: consider using np.log()
         """
+        if label==1:
+            return -np.log(prediction)
+        else:
+            return -np.log(1-prediction)
+
 
     @staticmethod
     def error(prediction, label):
@@ -65,6 +86,8 @@ class LinearModel:
         For example, if label= 1 and the prediction was 0.8, return 0.2
                      if label= 0 and the preduction was 0.43 return -0.43
         """
+        return (label - prediction)
+
 
     def backward(self, inputs, diff):
         """
@@ -81,6 +104,13 @@ class LinearModel:
 
         Note: Numpy arrays are passed by reference and can be modified in-place
         """
+
+        if diff>0:
+            self.weights[:2] =self.weights[:2]+self.lr*inputs
+            self.weights[-1:] = self.weights[-1:] + self.lr
+        elif diff<0:
+            self.weights[:2] = self.weights[:2] - self.lr * inputs
+            self.weights[-1:] = self.weights[-1:] - self.lr
 
     def plot(self, inputs, marker):
         """
@@ -106,7 +136,7 @@ class LinearModel:
 def main():
     inputs, labels = pkl.load(open("../data/binary_classification_data.pkl", "rb"))
 
-    epochs = 400
+    epochs = 400000
     model = LinearModel(num_inputs=inputs.shape[1], learning_rate=0.01)
 
     for i in range(epochs):
@@ -122,14 +152,15 @@ def main():
             # Calculate difference or differential
             diff = model.error(output, y)
 
+
             # Update the weights
             model.backward(x, diff)
 
             # Record accuracy
             preds = output > 0.5  # 0.5 is midline of sigmoid
             num_correct += int(preds == y)
-
-        print(f" Cost: {cost/len(inputs):.2f} Accuracy: {num_correct / len(inputs) * 100:.2f}%")
+        if i==epochs-1:
+            print(f" Cost: {cost/len(inputs):.2f} Accuracy: {num_correct / len(inputs) * 100:.2f}%")
         model.plot(inputs, "C2--")
     model.plot(inputs, "k")
     plt.show()
