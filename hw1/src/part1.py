@@ -84,7 +84,8 @@ def broadcastable_matrix_mul(x, y):
     TODO: Implement a function that computes the matrix product of two tensors and returns the result.
         The function needs to be broadcastable.
     """
-    return x*y
+    return torch.matmul(x, y)
+
 
 # Concatenate and stack.
 def simple_concatenate(tensors):
@@ -94,10 +95,10 @@ def simple_concatenate(tensors):
     """
     return torch.cat(tensors)
 
+
 def simple_stack(tensors, dim):
     """
     TODO: Implement a function that concatenates the given sequence of tensors
         along a new dimension(dim) and returns the result.
     """
-    return torch.cat(tensors,dim=dim)
-
+    return torch.stack(tensors, dim)

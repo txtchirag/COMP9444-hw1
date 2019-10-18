@@ -21,8 +21,8 @@ data = np.append(set1, set2, axis=0)
 # far away = 1
 labels = np.asarray([1] * 25 + [0] * 25)
 
-pkl.dump((data, labels), open("./binary_classification_data.pkl", "wb"))
+pkl.dump((data, labels), open("./binary_classification_data_new.pkl", "wb"))
 
-inp, lb = pkl.load(open("./binary_classification_data.pkl", "rb"))
+inp, lb = pkl.load(open("./binary_classification_data_new.pkl", "rb"))
 plt.scatter(inp[:, 0], inp[:, 1], c=lb)
 plt.show()

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0085dca0-492f-45be-94ce-fa8ee0a34335" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hw1/data/binary_classification_data_new.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1/data/data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1/data/data_generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw1/src/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1/src/part1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1/src/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1/src/part2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.part2">
+    <configuration name="data_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="COMP9444" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw1/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw1/data/data_generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="part1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COMP9444" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,9 +84,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="part2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="COMP9444" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw1/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw1/src/part2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.part2" />
         <item itemvalue="Python.part1" />
+        <item itemvalue="Python.data_generator" />
       </list>
     </recent_temporary>
   </component>
@@ -84,38 +131,86 @@
       <option name="project" value="LOCAL" />
       <updated>1570860784411</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="part1.py">
+      <created>1570871793719</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570871793719</updated>
+    </task>
+    <task id="LOCAL-00003" summary="part2.py">
+      <created>1571268377845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571268377845</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="part1.py" />
+    <MESSAGE value="part2.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="part2.py" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1831" height="275" key="GridCell.Tab.0.bottom" timestamp="1570870772052">
+    <state x="527" y="350" width="918" height="404" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1571042686006">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1831" height="275" key="GridCell.Tab.0.bottom/62.27.1858.1053@62.27.1858.1053" timestamp="1570870772052" />
-    <state width="1831" height="275" key="GridCell.Tab.0.center" timestamp="1570870772051">
+    <state x="527" y="350" width="918" height="404" key="#com.intellij.fileTypes.FileTypeChooser/62.27.1858.1053@62.27.1858.1053" timestamp="1571042686006" />
+    <state x="674" y="274" width="624" height="557" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1571104442668">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1831" height="275" key="GridCell.Tab.0.center/62.27.1858.1053@62.27.1858.1053" timestamp="1570870772051" />
-    <state width="1831" height="275" key="GridCell.Tab.0.left" timestamp="1570870772051">
+    <state x="674" y="274" width="624" height="557" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/62.27.1858.1053@62.27.1858.1053" timestamp="1571104442668" />
+    <state x="734" y="311" key="FileChooserDialogImpl" timestamp="1571196784555">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1831" height="275" key="GridCell.Tab.0.left/62.27.1858.1053@62.27.1858.1053" timestamp="1570870772051" />
-    <state width="1831" height="275" key="GridCell.Tab.0.right" timestamp="1570870772052">
+    <state x="734" y="311" key="FileChooserDialogImpl/62.27.1858.1053@62.27.1858.1053" timestamp="1571196784555" />
+    <state width="1831" height="339" key="GridCell.Tab.0.bottom" timestamp="1571372623936">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1831" height="275" key="GridCell.Tab.0.right/62.27.1858.1053@62.27.1858.1053" timestamp="1570870772052" />
+    <state width="1831" height="339" key="GridCell.Tab.0.bottom/62.27.1858.1053@62.27.1858.1053" timestamp="1571372623936" />
+    <state width="1831" height="339" key="GridCell.Tab.0.center" timestamp="1571372623935">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1831" height="339" key="GridCell.Tab.0.center/62.27.1858.1053@62.27.1858.1053" timestamp="1571372623935" />
+    <state width="1831" height="339" key="GridCell.Tab.0.left" timestamp="1571372623935">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1831" height="339" key="GridCell.Tab.0.left/62.27.1858.1053@62.27.1858.1053" timestamp="1571372623935" />
+    <state width="1831" height="339" key="GridCell.Tab.0.right" timestamp="1571372623936">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1831" height="339" key="GridCell.Tab.0.right/62.27.1858.1053@62.27.1858.1053" timestamp="1571372623936" />
+    <state width="1831" height="339" key="GridCell.Tab.1.bottom" timestamp="1571372623936">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1831" height="339" key="GridCell.Tab.1.bottom/62.27.1858.1053@62.27.1858.1053" timestamp="1571372623936" />
+    <state width="1831" height="339" key="GridCell.Tab.1.center" timestamp="1571372623936">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1831" height="339" key="GridCell.Tab.1.center/62.27.1858.1053@62.27.1858.1053" timestamp="1571372623936" />
+    <state width="1831" height="339" key="GridCell.Tab.1.left" timestamp="1571372623936">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1831" height="339" key="GridCell.Tab.1.left/62.27.1858.1053@62.27.1858.1053" timestamp="1571372623936" />
+    <state width="1831" height="339" key="GridCell.Tab.1.right" timestamp="1571372623936">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1831" height="339" key="GridCell.Tab.1.right/62.27.1858.1053@62.27.1858.1053" timestamp="1571372623936" />
     <state x="574" y="299" width="824" height="507" key="IDE.errors.dialog" timestamp="1570860398256">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
     <state x="574" y="299" width="824" height="507" key="IDE.errors.dialog/62.27.1858.1053@62.27.1858.1053" timestamp="1570860398256" />
-    <state x="586" y="289" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1570860801628">
+    <state x="586" y="289" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1571268394574">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state x="586" y="289" width="800" height="527" key="Vcs.Push.Dialog.v2/62.27.1858.1053@62.27.1858.1053" timestamp="1570860801628" />
+    <state x="586" y="289" width="800" height="527" key="Vcs.Push.Dialog.v2/62.27.1858.1053@62.27.1858.1053" timestamp="1571268394574" />
+    <state x="596" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1571129839619">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="596" y="381" key="com.intellij.ide.util.TipDialog/62.27.1858.1053@62.27.1858.1053" timestamp="1571129839619" />
   </component>
 </project>
