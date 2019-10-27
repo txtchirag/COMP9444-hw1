@@ -59,7 +59,7 @@ class LinearModel:
         hint: call the activation function you have implemented above.
         """
 
-        x = (np.float128)(np.matmul(inputs,self.weights[:2])+self.weights[-1:]).item()
+        x = (np.float128)(np.matmul(inputs,self.weights[:2])+(np.float128)(self.weights[-1:]).item()) #to increase precission type cast np.float128
         out=self.activation(x)
 
         return out
