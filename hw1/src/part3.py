@@ -149,9 +149,9 @@ class NNModel:
         for X in range(8):
             Y = 0
             row = images[X * 8:(X + 1) * 8]
-            for j in range(8):
-                for i in range(28):
-                    grid[X * 28 + i][Y:Y + 28] = row[j][i]
+            for i in range(8):
+                for j in range(28):
+                    grid[X * 28 + j][Y:Y + 28] = row[i][j]
                 Y += 28
 
         return grid, labels  # 8x8 grid image, corresponding target array
