@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0085dca0-492f-45be-94ce-fa8ee0a34335" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/hw1/src/part3.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1/src/part3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/COMP9444.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMP9444.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,14 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$USER_HOME$/anaconda3/envs/Homework2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/anaconda3/envs/Homework2" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -37,28 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.part3">
-    <configuration name="data_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="COMP9444" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw1/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw1/data/data_generator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.scratch_1 (1)">
     <configuration name="part1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COMP9444" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,12 +111,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="scratch_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="COMP9444" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/anaconda3/envs/Homework2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/anaconda3/envs/Homework2/scratch_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="COMP9444" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scratch_1 (1)" />
+        <item itemvalue="Python.scratch_1" />
         <item itemvalue="Python.part3" />
         <item itemvalue="Python.part2" />
         <item itemvalue="Python.part1" />
-        <item itemvalue="Python.data_generator" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572137608416</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="submit">
+      <created>1572138092136</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572138092136</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,58 +244,62 @@
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
     <state x="674" y="274" width="624" height="557" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/62.27.1858.1053@62.27.1858.1053" timestamp="1571104442668" />
-    <state x="734" y="311" key="FileChooserDialogImpl" timestamp="1571196784555">
+    <state x="734" y="311" key="FileChooserDialogImpl" timestamp="1572494551446">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state x="734" y="311" key="FileChooserDialogImpl/62.27.1858.1053@62.27.1858.1053" timestamp="1571196784555" />
-    <state width="1831" height="275" key="GridCell.Tab.0.bottom" timestamp="1572138071939">
+    <state x="734" y="311" key="FileChooserDialogImpl/62.27.1858.1053@62.27.1858.1053" timestamp="1572494551446" />
+    <state width="1831" height="275" key="GridCell.Tab.0.bottom" timestamp="1572511755095">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1831" height="275" key="GridCell.Tab.0.bottom/62.27.1858.1053@62.27.1858.1053" timestamp="1572138071939" />
-    <state width="1831" height="275" key="GridCell.Tab.0.center" timestamp="1572138071939">
+    <state width="1831" height="275" key="GridCell.Tab.0.bottom/62.27.1858.1053@62.27.1858.1053" timestamp="1572511755095" />
+    <state width="1831" height="275" key="GridCell.Tab.0.center" timestamp="1572511755093">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1831" height="275" key="GridCell.Tab.0.center/62.27.1858.1053@62.27.1858.1053" timestamp="1572138071939" />
-    <state width="1831" height="275" key="GridCell.Tab.0.left" timestamp="1572138071939">
+    <state width="1831" height="275" key="GridCell.Tab.0.center/62.27.1858.1053@62.27.1858.1053" timestamp="1572511755093" />
+    <state width="1831" height="275" key="GridCell.Tab.0.left" timestamp="1572511755092">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1831" height="275" key="GridCell.Tab.0.left/62.27.1858.1053@62.27.1858.1053" timestamp="1572138071939" />
-    <state width="1831" height="275" key="GridCell.Tab.0.right" timestamp="1572138071939">
+    <state width="1831" height="275" key="GridCell.Tab.0.left/62.27.1858.1053@62.27.1858.1053" timestamp="1572511755092" />
+    <state width="1831" height="275" key="GridCell.Tab.0.right" timestamp="1572511755094">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1831" height="275" key="GridCell.Tab.0.right/62.27.1858.1053@62.27.1858.1053" timestamp="1572138071939" />
-    <state width="1831" height="339" key="GridCell.Tab.1.bottom" timestamp="1572134475240">
+    <state width="1831" height="275" key="GridCell.Tab.0.right/62.27.1858.1053@62.27.1858.1053" timestamp="1572511755094" />
+    <state width="1831" height="339" key="GridCell.Tab.1.bottom" timestamp="1572138237147">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1831" height="339" key="GridCell.Tab.1.bottom/62.27.1858.1053@62.27.1858.1053" timestamp="1572134475240" />
-    <state width="1831" height="339" key="GridCell.Tab.1.center" timestamp="1572134475240">
+    <state width="1831" height="339" key="GridCell.Tab.1.bottom/62.27.1858.1053@62.27.1858.1053" timestamp="1572138237147" />
+    <state width="1831" height="339" key="GridCell.Tab.1.center" timestamp="1572138237146">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1831" height="339" key="GridCell.Tab.1.center/62.27.1858.1053@62.27.1858.1053" timestamp="1572134475240" />
-    <state width="1831" height="339" key="GridCell.Tab.1.left" timestamp="1572134475239">
+    <state width="1831" height="339" key="GridCell.Tab.1.center/62.27.1858.1053@62.27.1858.1053" timestamp="1572138237146" />
+    <state width="1831" height="339" key="GridCell.Tab.1.left" timestamp="1572138237146">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1831" height="339" key="GridCell.Tab.1.left/62.27.1858.1053@62.27.1858.1053" timestamp="1572134475239" />
-    <state width="1831" height="339" key="GridCell.Tab.1.right" timestamp="1572134475240">
+    <state width="1831" height="339" key="GridCell.Tab.1.left/62.27.1858.1053@62.27.1858.1053" timestamp="1572138237146" />
+    <state width="1831" height="339" key="GridCell.Tab.1.right" timestamp="1572138237146">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1831" height="339" key="GridCell.Tab.1.right/62.27.1858.1053@62.27.1858.1053" timestamp="1572134475240" />
+    <state width="1831" height="339" key="GridCell.Tab.1.right/62.27.1858.1053@62.27.1858.1053" timestamp="1572138237146" />
     <state x="574" y="299" width="824" height="507" key="IDE.errors.dialog" timestamp="1570860398256">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
     <state x="574" y="299" width="824" height="507" key="IDE.errors.dialog/62.27.1858.1053@62.27.1858.1053" timestamp="1570860398256" />
-    <state x="586" y="289" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1572137620264">
+    <state x="441" y="188" key="SettingsEditor" timestamp="1572323264909">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state x="586" y="289" width="800" height="527" key="Vcs.Push.Dialog.v2/62.27.1858.1053@62.27.1858.1053" timestamp="1572137620264" />
+    <state x="441" y="188" key="SettingsEditor/62.27.1858.1053@62.27.1858.1053" timestamp="1572323264909" />
+    <state x="586" y="289" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1572138104031">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="586" y="289" width="800" height="527" key="Vcs.Push.Dialog.v2/62.27.1858.1053@62.27.1858.1053" timestamp="1572138104031" />
     <state width="929" height="526" key="XDebugger.FullValuePopup" timestamp="1571435193948">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
     <state width="929" height="526" key="XDebugger.FullValuePopup/62.27.1858.1053@62.27.1858.1053" timestamp="1571435193948" />
-    <state x="596" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1572051560183">
+    <state x="596" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1572465327034">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state x="596" y="381" key="com.intellij.ide.util.TipDialog/62.27.1858.1053@62.27.1858.1053" timestamp="1572051560183" />
+    <state x="596" y="381" key="com.intellij.ide.util.TipDialog/62.27.1858.1053@62.27.1858.1053" timestamp="1572465327034" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -265,6 +308,11 @@
           <url>file://$PROJECT_DIR$/hw1/src/part3.py</url>
           <line>35</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/anaconda3/envs/Homework2/scratch_1.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
